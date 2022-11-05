@@ -3,10 +3,10 @@ const apiData = {
   limit: 6,
   async getData() {
     const res = await fetch(
-      `http://localhost:3000/photos?_page=${this.page}&_limit=${this.limit}`
+      `https://alaminsu.github.io/Photo-Gallery/db.json`
     );
     const data = await res.json();
-    return data;
+    return data.photos;
   },
 };
 let limitStart = 0;
