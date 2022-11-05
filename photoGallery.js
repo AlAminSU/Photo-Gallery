@@ -142,7 +142,7 @@ const UI = {
       await this.handlePopup();
     } else if (evt.target.classList.contains("last")) {
       const total = await this.getTotalOfData();
-      for (let i = 6; i <= 6; i + 6) {
+      for (let i = 6; i <= total; i += 6) {
         limitStart = (i / 6) * 6;
         limitEnd = limitStart + 6;
       }
