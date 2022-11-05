@@ -1,0 +1,17 @@
+{
+  "name": "photos-galllery",
+  "version": "1.0.0",
+  "description": "A Photo API",
+  "main": "photoGallery.js",
+  "scripts": {
+    "dev": "json-server --watch db.json"
+  },
+  "keywords": [
+    "json-server"
+  ],
+  "author": "Slass",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.1"
+  }
+}
